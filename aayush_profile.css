@@ -8,11 +8,35 @@ body{
 }
 
 .dh{
-    background-color: red;
     height: 60px;
     display: flex;
     justify-content: center;
 }
+
+.d1{
+	background-image:url("aayush_pp.jpg");
+	height: 550px;
+	background-position:left-center;
+	background-size: cover;
+	position: center;
+}
+
+.d2{
+	height:500px;
+	width:100%;
+	background-color:rgb(231, 243, 255);
+}
+
+.d3{
+	height:550px;
+	width:100%;
+}
+
+.d4{
+	height:550px;
+	width:100%;
+}
+
 .menu{
     height: 100%;
     width: 40%;
@@ -20,4 +44,8 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+	font-family:monospace;
+	position:sticky;
+	position: sticky; 
+	top: 0;
 }
